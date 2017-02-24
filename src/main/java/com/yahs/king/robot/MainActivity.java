@@ -160,7 +160,7 @@ public class MainActivity extends AppCompatActivity {
     private void initDatas()
     {
         mDatas = new ArrayList<ChatMessage>();
-        mDatas.add(new ChatMessage("你好，小瑞为您服务", ChatMessage.Type.INCOMING));
+        mDatas.add(new ChatMessage("您好，小瑞为您服务！", ChatMessage.Type.INCOMING));
         mAdapter = new ChatMessageAdapter(this, mDatas);
         mMsgs.setAdapter(mAdapter);
     }
